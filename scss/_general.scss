@@ -1,0 +1,54 @@
+*::after,
+*::before,
+* {
+   box-sizing: border-box;
+}
+
+html {
+   margin: 0;
+   padding: 0;
+}
+
+
+body {
+   all:inherit;
+   font-family: 'Public Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   color: $main-bg-grayish;
+}
+
+
+img{
+   max-width: 100%;
+}
+h1{
+   font-family: 'Ibarra Real Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 50px;
+letter-spacing: -0.446429px;
+color: $main-bg-grayish;
+}
+h2{
+   font-family: 'Ibarra Real Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 42px;
+letter-spacing: -0.357143px;
+color: $main-bg-grayish;
+}
+
+h3{
+   font-family: 'Ibarra Real Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 36px;
+letter-spacing: -0.285714px;
+color: $main-bg-grayish;
+}
